@@ -1,0 +1,588 @@
+/**
+ * CSS Base
+ *
+ * @author      Leonardo Vidarte <lvidarte@gmail.com>
+ * @version     $Id: base.css 137 2010-03-07 21:06:23Z xleo $
+ * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License
+ * @package     themes
+ * @subpackage  classic
+ */
+body {
+	font-family: sans-serif;
+	font-size: 12px;
+    background: #FFF;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #315C88;
+}
+
+a:visited {
+	color: #315C88;
+}
+
+a:hover {
+	color: black;
+}
+
+a.noborder {
+	text-decoration: none;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #CACACA;
+}
+
+h3 {
+	display: block;
+	border-bottom: 2px solid #DCDCDC;
+	color: #315C88;
+	font-size: 18px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+div.description {
+	border: dashed 1px #CACACA;
+	padding: 5px 10px;
+	margin: 20px 0px;
+	font-size: 14px;
+	background: #E5EFF8;
+}
+
+h4 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #315C88;
+}
+
+h5 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #315C88;
+}
+
+pre {
+	font-size: 14px;
+	background: #E5EFF8;
+	border: 1px solid #CACACA;
+	padding: 10px;
+}
+
+code {
+	color: #315C88;
+}
+
+pre.wrap {
+	white-space:-moz-pre-wrap;
+}
+
+/* Form */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+	border: solid 1px #CACACA;
+	background-color: #FFF;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+	color: #000;
+	background-color: #FFC;
+	font-weight: bold;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+buttom {
+}
+
+label {
+	line-height: 20px;
+	font-size: 12px;
+	color: #444;
+}
+
+/* Table */
+table {
+	background: #FFFFFF;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+table caption {
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Form Table */
+.form-group {
+	border-bottom: dashed 1px #DDD;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+table.form {
+	margin: 0px;
+}
+
+	table.form td {
+		border: none;
+	}
+
+	table.form th {
+		background-color: #FFF;
+		width: 100px;
+		color: #444;
+		border: none;
+	}
+
+	table.form tbody {
+		display: block;
+	}
+
+table.permission {
+	font-size: 10px;
+	border: solid 2px #CACACA;
+	margin: 5px 0px 10px 10px;
+}
+	h4.titleform {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		color: #444;
+	}
+
+	table.permission tr td,
+	table.permission tr th {
+		padding: 2px 5px;
+		border-top: solid 1px #CACACA;
+	}
+
+	table.permission tr th {
+		border-right: solid 1px #CACACA;
+	}
+
+	table.permission label {
+		position: relative;
+		top: -3px;
+		font-size: 10px;
+	}
+
+	table.permission .help {
+		padding-top: 7px;
+		background: none;
+	}
+
+table.invisible {
+	margin: 0;
+}
+
+table.pparent th {
+	background: #FC9;
+}
+
+table.pchild th {
+	background: #FCF;
+}
+
+table caption {
+	text-align: left;
+	margin: 5px 0px;
+}
+
+table tr.clickeable:hover {
+	background: #C0FFFF ! important;
+	cursor: hand;
+	cursor: pointer;
+}
+
+/* Avisos */
+table tr td.advice,
+table tr.selectable td.advice,
+table tr.selectable:hover td.advice,
+table tr.selectable:hover td.advice:hover {
+	background-color: #FCC ! important;
+}
+
+
+table tr.selectable td.noborder,
+table tr.selectable:hover td.noborder,
+table tr.selectable:hover td.noborder:hover {
+	background-color: #FFF ! important;
+}
+
+table tr.selectable:hover th {
+	background-color: #BFE1FF ! important;
+}
+
+table tr.selectable:hover td {
+	background-color: #FFFFAA ! important;
+}
+
+table tr.selectable:hover td:hover {
+	background-color: #FFFF33 ! important;
+}
+
+table tr.product_invisible {
+	background: #EEE;
+}
+
+table th {
+	padding: 3px;
+	border: 1px solid #CACACA;
+	background: #E5EFF8;
+	vertical-align: top;
+	text-align: left;
+}
+
+table th.noth {
+	border-top: none;
+	border-left: none;
+	background: none;
+}
+
+table th.sub {
+	background: #DFD;
+}
+
+table td {
+	padding: 3px;
+	border: 1px solid #CACACA;
+	vertical-align: top;
+}
+
+table td.noborder, table.invisible td {
+	border: none;
+}
+
+ul {
+}
+
+li.nobullet {
+	list-style: none;
+}
+
+dl {
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+dd {
+	margin-left: 20px;
+	
+}
+
+form.login {
+	margin: 0 auto;
+}
+
+/* user-logout */
+#user-logout {
+	float: right;
+	margin-top: 20px;
+}
+
+/* Top bar */
+#topbar {
+}
+
+	#topbar h1 {
+		font-size: 28px;
+		float: left;
+		margin-bottom: 5px;
+	}
+
+	#topbar #user_welcome {
+		float: right;
+		margin-top: 34px;
+		margin-right: 10px;
+	}
+
+	#topbar p {
+		background-image: url(images/bgi.png);
+		background-position: top;
+		background-repeat: repeat-x;
+		border-top: 1px solid #CACACA;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFF;
+		clear: both;
+		margin: 0 0 8px 0;
+		padding: 5px 10px 5px 10px;
+	}
+
+/* Playground */
+.playgroundMenu {
+	border: solid 1px #CACACA;
+	padding: 5px;
+	background: #E5EFF8;
+	margin-bottom: 20px;
+}
+
+.playgroundMenu a {
+	padding: 5px;
+}
+
+.playgroundMenu a:hover {
+	color: #FFF;
+	background: #315C88;
+}
+
+.playgroundMenu a.root {
+	padding: 0;
+}
+
+.playgroundMenu .actual {
+	color: #FFF;
+	background: #315C88;
+}
+
+.fileCodeBlock {
+	margin: 20px 0px;
+}
+
+.filePath {
+	font-weight: normal;	
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.fileComment {
+	border: solid 1px #CACACA;
+	padding: 10px;
+	background: #F0EAD8;
+	font-size: 16px;
+}
+
+.fileLabel {
+	float: right;
+	border: solid 1px #CACACA;
+	font-size: 16px;
+	padding: 10px;
+	background: #FFF;
+}
+
+.fileNumbers {
+	float: left;
+	border: solid 1px #CACACA;
+	background: #FFF;
+	font-size: 16px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.fileCode {
+	border: solid 1px #CACACA;
+	font-size: 16px;
+	background: #F0F0F0;
+	padding: 10px;
+}
+
+#foot {
+	clear: both;
+	padding: 1px 0;
+}
+
+	#foot p {
+		background-image: url(images/bg.png);
+		background-position: top;
+		background-repeat: repeat-x;
+		text-align: center;
+		padding-top: 7px;
+		border-top: solid 1px #CACACA;
+        line-height: 20px;
+	}
+
+/* Multi-User */
+.multi-file,
+.multi-product,
+.multi-user {
+	border: solid 1px #CACACA;
+	padding: 2px 5px;
+	margin-left: 5px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+}
+
+	.multi-file a,
+	.multi-product a,
+	.multi-user a {
+		padding: 0 2px;	
+		color: #AAA;
+		text-decoration: none;
+	}
+
+.multi-product {
+	margin-top: 5px;
+}
+
+.multi-file {
+	margin: 10px 0 5px 0;
+}
+
+
+/* Ayudas */
+.help, .info, .error, .tip {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.help {
+	color: #666;
+	padding: 5px 5px 5px 25px;
+	background-image: url(images/icon_help.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+}
+
+.info {
+	margin-top: 10px;
+	border: solid 1px #CACACA;
+	padding: 5px 5px 5px 25px;
+	background-color: #FFC;
+	background-image: url(images/icon_info.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+}
+
+.error {
+	border: solid 1px #FF3300;
+	padding: 5px 5px 5px 25px;
+	background-image: url(images/icon_error.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+}
+
+.tip {
+	padding: 5px 5px 5px 25px;
+	background-image: url(images/icon_tip.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+}
+
+.comment {
+	font-size: 12px;
+	color: gray;
+	font-style: italic;
+}
+
+.alert {
+	color: red;
+	cursor: help;
+	border-bottom: dashed 1px #CACACA;
+}
+
+.advice {
+	font-size: 10px;
+	font-style: italic;
+	padding: 2px;
+	background-color: #FCC ! important;
+}
+
+/* Utils */
+.left {
+	text-align: left ! important;
+}
+
+.center {
+	text-align: center ! important;
+}
+
+.right {
+	text-align: right ! important;
+}
+
+.nodisplay {
+	display: none ! important;
+}
+
+.noborder {
+	border: none ! important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+/* Colors */
+.red {
+	color: red !important;
+}
+
+.blue {
+	color: #315C88;
+}
+
+.green {
+	color: green;
+}
+
+.gray {
+	color: gray;
+}
+
+.bg_red {
+	background-color: #F99 ! important;
+}
+
+.bg_green {
+	background-color: #6F9 ! important;
+}
+
+.bg_yellow, .bgmatch {
+	background-color: #FFC ! important;
+}
+
+.bg_gray {
+	background-color: #CCC ! important;
+}
+
+.bg_toggle0, .bg0 {
+	background-color: #FFF ! important;
+}
+
+.bg_toggle1, .bg1 {
+	background-color: #F4F4F4 ! important;
+}
+
+.bg_toggle2, .bg2 {
+	background-color: #DFD ! important;
+}
+
+/* underline */
+.underline {
+	text-decoration: underline;
+}
+
+.nowrap {
+	white-space: nowrap ! important;
+}

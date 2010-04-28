@@ -1,0 +1,183 @@
+<?xml version='1.0' standalone='yes'?>
+
+<!--
+@author      Leonardo Vidarte <lvidarte@gmail.com>
+@version     $Id: common.xml 138 2010-03-08 00:05:46Z xleo $
+@license     http://www.gnu.org/licenses/gpl.html GNU General Public License
+@package     languages
+@subpackage  es
+-->
+
+<language type="es">
+
+	<!-- {{{ BASICS -->
+	<text name="_admin">Administrar</text>
+	<text name="_apply">Aplicar</text>
+	<text name="_apply_help"><![CDATA[realiza los cambios y regresa aqu&iacute;]]></text>
+	<text name="_asc">Orden ascendente</text>
+	<text name="_back">Volver</text>
+	<text name="_cannot_be_deleted"><![CDATA[El elemento no puede ser elminado.]]></text>
+	<text name="_continue">Continuar</text>
+	<text name="_create">Crear</text>
+	<text name="_created"><![CDATA[Se ha creado '%s']]></text>
+	<text name="_days_expired"><![CDATA[d&iacute;as]]></text>
+	<text name="_del">Eliminar</text>
+	<text name="_deleted"><![CDATA[Se ha eliminado '%s']]></text>
+	<text name="_delete">Eliminar</text>
+	<text name="_desc">Orden descendente</text>
+	<text name="_description"><![CDATA[Descripci&oacute;n]]></text>
+	<text name="_edit">Modificar</text>
+	<text name="_errors">Existen errores en los datos ingresados.</text>
+	<text name="_exists">Existe</text>
+	<text name="_filter">Filtrar</text>
+	<text name="_from">Desde</text>
+	<text name="_go">Ir</text>
+	<text name="_goto">Ir a</text>
+	<text name="_help">Ayuda</text>
+	<text name="_hide">Ocultar</text>
+	<text name="_id">ID</text>
+	<text name="_inbox">Bandeja de entrada</text>
+	<text name="_insert">Ingresar</text>
+	<text name="_inserted"><![CDATA[Se ha creado '%s']]></text><!-- @deprecated -->
+	<text name="_left">Izquierda</text>
+	<text name="_list">Listado</text>
+	<text name="_modify">Modificar</text>
+	<text name="_new">Nuevo!</text>
+	<text name="_no">No</text>
+	<text name="_no_results">Sin resultados</text>
+	<text name="_not_exists">No existe</text>
+	<text name="_optional">Opcional</text>
+	<text name="_others">Otros</text>
+	<text name="_parent">Padre</text>
+	<text name="_permissions">Permisos</text>
+	<text name="_read">Leer</text>
+	<text name="_reply">Responder</text>
+	<text name="_result">Resultado</text>
+	<text name="_results">Resultados</text>
+	<text name="_return">Volver</text>
+	<text name="_right">Derecha</text>
+	<text name="_search">Buscar</text>
+	<text name="_search_filter"><![CDATA[Filtro de b&uacute;squeda]]></text>
+	<text name="_search_filter_toggle"><![CDATA[Ver/Ocultar filtro de b&uacute;squeda]]></text>
+	<text name="_show">Mostrar</text>
+	<text name="_tip">Tip</text>
+	<text name="_to">Hasta</text>
+	<text name="_undel">No eliminar</text>
+	<text name="_updated">Los datos fueron actualizados</text>
+	<text name="_update">Modificar</text>
+	<text name="_upload">Enviar</text>
+	<text name="_user">Usuario</text>
+	<text name="_version"><![CDATA[Versi&oacute;n]]></text>
+	<text name="_view">Ver</text>
+	<text name="_yes">Si</text>
+	<text name="_you_are_here"><![CDATA[Ud. est&aacute; aqu&iacute;]]></text>
+	<!-- BASICS }}} -->
+	<!-- {{{ FILE -->
+	<text name="_file"><![CDATA[Archivo]]></text>
+	<text name="_file_add"><![CDATA[Agregar Archivo]]></text>
+	<text name="_file_remove"><![CDATA[Quitar Archivo]]></text>
+	<text name="_file_deleted"><![CDATA[Se ha eliminado el archivo '<b>%s</b>'.]]></text>
+	<text name="_file_description"><![CDATA[Descripci&oacute;n]]></text>
+	<text name="_file_attach"><![CDATA[Archivo Adjunto]]></text>
+	<!-- File }}} -->
+	<!-- {{{ FILES -->
+	<text name="_files"><![CDATA[Archivos]]></text>
+	<!-- Files }}} -->
+	<!-- {{{ USER -->
+	<text name="_user_account">Mi cuenta</text>
+	<text name="_user_welcome">Bienvenid@</text>
+	<text name="_user_id_user">ID</text>
+	<text name="_user_username">Usuario</text>
+	<text name="_user_password"><![CDATA[Contrase&ntilde;a]]></text>
+	<text name="_user_name">Nombre</text>
+	<text name="_user_lastname">Apellido</text>
+	<text name="_user_id_sector">Sector</text>
+	<text name="_user_birthday">Fecha nacimiento</text>
+	<text name="_user_movil"><![CDATA[M&oacute;vil]]></text>
+	<text name="_user_email">Email</text>
+	<text name="_user_email_exist">Ya existe un usuario con el mail ingresado.</text>
+	<text name="_user_date"><![CDATA[Ultimo acceso]]></text>
+	<text name="_user_update">Modificar datos de Usuario</text>
+	<text name="_user_login">Ingresar</text>
+	<text name="_user_logout">Salir</text>
+	<text name="_user_creator">Creador</text>
+	<text name="_user_in_charge">Responsable</text>
+	<text name="_user_cant_change_permissions"><![CDATA[Sus permisos s&oacute;lo pueden ser modificados por un administrador.]]></text>
+	<text name="_user_can_assign_own_permissions"><![CDATA[S&oacute;lo puede asignar permisos que Ud. mismo posee.]]></text>
+	<text name="_user_password_modify_help"><![CDATA[Ingrese su contrase&ntilde;a]]></text>
+	<text name="_user_password_confirm_help"><![CDATA[Confirme su contrase&ntilde;a]]></text>
+	<text name="_user_password_dont_match"><![CDATA[Las contrase&ntilde;as no coinciden]]></text>
+	<text name="_user_not_found"><![CDATA[Usuario y/o Contrase&ntilde;a incorrectos.]]></text>
+	<text name="_user_not_exist"><![CDATA[El usuario no existe.]]></text>
+	<text name="_user_auth_required"><![CDATA[<code>%s</code> requiere autenticaci&oacute;n.]]></text>
+	<text name="_user_auth_error"><![CDATA[Acceso denegado]]></text>
+	<text name="_user_auth_error_description"><![CDATA[Lo siento, no posee los permisos requeridos para acceder a <code>%s<code>.]]></text>
+	<text name="_user_create">Crear Usuario</text>
+	<text name="_user_created"><![CDATA[Se ha creado el Usuario '%s']]></text>
+	<text name="_user_updated"><![CDATA[Se ha modificado el Usuario '%s']]></text>
+	<text name="_user_modify">Modificar Usuario</text>
+	<text name="_user_delete">Eliminar Usuario</text>
+	<text name="_user_deleted"><![CDATA[Se ha eliminado el Usuario '%s']]></text>
+	<!-- USER }}} -->
+	<!-- {{{ EMAIL -->
+	<text name="_email_send_ok"><![CDATA[El mensaje se ha enviado con &eacute;xito]]></text>
+	<text name="_email_send_error">El mensaje no ha podido ser enviado</text>
+	<!-- EMAIL }}} -->
+	<!-- {{{ FORM -->
+	<text name="_form_"><![CDATA[Datos requeridos]]></text>
+	<text name="_form_a"><![CDATA[4-20 caracteres]]></text>
+	<text name="_form_required"><![CDATA[<span style="color:red" title="requerido">*</span>]]></text>
+	<text name="_form_required_info"><![CDATA[Los campos marcados con <span style="color:red">*</span> (asterisco) son obligatorios.]]></text>
+	<!-- FORM }}} -->
+	<!-- {{{ DATE -->
+	<text name="_date_format">Y-m-d</text>
+	<text name="_date_range"><![CDATA[Per&iacute;odo]]></text>
+	<text name="_date_limit"><![CDATA[Plazo]]></text>
+	<text name="_date_yyyymmdd"><![CDATA[AAAA/MM/DD]]></text>
+	<list name="_date_months">
+		<item>Enero</item>
+		<item>Febrero</item>
+		<item>Marzo</item>
+		<item>Abril</item>
+		<item>Mayo</item>
+		<item>Junio</item>
+		<item>Julio</item>
+		<item>Agosto</item>
+		<item>Septiembre</item>
+		<item>Octubre</item>
+		<item>Noviembre</item>
+		<item>Diciembre</item>
+	</list>
+	<list name="_date_weekdays">
+		<item>Lunes</item>
+		<item>Martes</item>
+		<item><![CDATA[Mi&eacute;rcoles]]></item>
+		<item>Jueves</item>
+		<item>Viernes</item>
+		<item><![CDATA[S&aacute;bado]]></item>
+		<item>Domingo</item>
+	</list>
+	<!-- DATE }}} -->
+	<!-- {{{ 404 -->
+	<text name="_404_file_not_found">Error 404 - Archivo no encontrado</text>
+	<text name="_404_file_not_found_description"><![CDATA[No existe <code>%s</code>.]]></text>
+	<text name="_404_class_not_found">Clase no encontrada</text>
+	<text name="_404_class_not_found_description"><![CDATA[No existe la clase <code>%s</code>.]]></text>
+	<text name="_404_method_not_found">M&amp;eacute;todo no encontrado</text>
+	<text name="_404_method_not_found_description"><![CDATA[La clase <code>%s</code> no posee el m&eacute;todo <code>%s()</code> (o &eacute;ste no es p&uacute;blico).]]></text>
+	<text name="_404_file_path_error">Archivo no encontrado</text>
+	<text name="_404_file_path_error_description"><![CDATA[El archivo <code>%s</code> no existe.]]></text>
+	<text name="_404_referer_dont_match">Referer incorrecto</text>
+	<!-- 404 }}} -->
+	<!-- {{{ ERROR -->
+	<text name="_error_backtrace"><![CDATA[file:<code>%s</code><br />line:<code>%s</code><br />function:<code>%s</code><br />args:<pre><code>%s</code></pre>]]></text>
+	<text name="_error_params"><![CDATA[Error en $params[<code>%s</code>]: value[<code>%s</code>] type[<code>%s</code>] condition[<code>%s</code>]]]></text>
+	<text name="_error_params_too_many"><![CDATA[Error: el m&eacute;todo admite hasta <code>%s</code> par&aacute;metros]]></text>
+	<text name="_error_params_strict"><![CDATA[Error: el m&eacute;todo requiere <code>%s</code> par&aacute;metros]]></text>
+	<text name="_error_db_update"><![CDATA[Error al actualizar registro]]></text>
+	<text name="_error_db_delete"><![CDATA[Error al borrar registro]]></text>
+	<text name="_error_db_insert"><![CDATA[Error al insertar registro]]></text>
+	<text name="_error_file_remove"><![CDATA[Error al borrar archivo %s]]></text>
+	<!-- ERROR }}} -->
+
+</language>

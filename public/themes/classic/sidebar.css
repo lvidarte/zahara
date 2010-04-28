@@ -1,0 +1,127 @@
+/**
+ * CSS Sidebar
+ *
+ * @author      Leonardo Vidarte <lvidarte@gmail.com>
+ * @version     $Id: sidebar.css 123 2009-12-02 17:53:42Z xleo $
+ * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License
+ * @package     themes
+ * @subpackage  classic
+ */
+
+#toggle-sidebar
+{
+	float: left;
+	text-align: center;
+	width: 12px;
+	border: solid 1px #CACACA;
+	border-right: none;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+}
+
+	#toggle-sidebar a
+	{
+		display: block;
+		text-decoration: none;
+	}
+
+	#toggle-sidebar a:hover
+	{
+		background-color: #E5EFF8;
+	}
+
+
+
+#sidebar
+{
+	float: left;
+	width: 160px;
+	border: 1px solid #CACACA;
+	border-top: none;
+}
+
+#sidebar ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar a
+{
+	display: block;
+	text-decoration: none;
+	background-color: #FFF;
+	padding: 2px;
+}
+
+#sidebar a:hover
+{
+	background-color: #E5EFF8;
+}
+
+#sidebar dl
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar dt
+{
+	color: #444;
+	background-color: #DDD;
+	border-top: solid 1px #CACACA;
+	margin: 0;
+	padding: 3px;
+}
+
+#sidebar dd
+{
+	margin: 0;
+	padding: 0;
+	border-top: solid 1px #DADADA;
+}
+
+/* Level 1 */
+#sidebar dl dd a
+{
+	padding: 3px;
+}
+
+#sidebar dl dd a.toggle
+{
+	float: right;
+	width: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Level 2 */
+#sidebar dl dd dl dt
+{
+	padding-left: 20px;
+	border-top: none;
+	background-color: #FFF;
+}
+
+#sidebar dl dd dl dd
+{
+	border-top: none;
+}
+
+#sidebar dl dd dl dd.first
+{
+	border-top: dashed 1px #DADADA;
+}
+
+#sidebar dl dd dl dd a
+{
+	padding-left: 20px;
+}
+

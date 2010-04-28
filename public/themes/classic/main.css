@@ -1,0 +1,333 @@
+/**
+ * CSS Main
+ *
+ * @author      Leonardo Vidarte <lvidarte@gmail.com>
+ * @version     $Id: main.css 98 2009-11-21 21:43:24Z xleo $
+ * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License
+ * @package     themes
+ * @subpackage  classic
+ */
+
+#main
+{
+	border: 1px solid #CACACA;
+	background-color: #FFFFFF;
+}
+
+#main-content
+{
+ 	margin: 20px;
+	padding: 0;
+	border-top: solid 1px #FFF; /*Hack*/
+}
+
+#main-content:first-child
+{
+	margin-top: 0;
+}
+
+.menu-obj
+{
+	float: right;
+	margin-top: 15px;
+}
+
+	.menu-obj ul
+	{
+		padding: 0;
+		margin: 0;
+	}
+
+	.menu-obj ul li
+	{
+		list-style-type: none;
+		display: inline;
+		padding-right: 5px;
+	}
+
+
+/* TASK */
+.task
+{
+	margin-top: 20px;
+	padding: 15px;
+	border: solid 1px #CACACA;
+	-moz-border-radius-bottomleft: 8px;
+}
+
+.sub-task
+{
+	border-top: dashed 1px #CACACA;
+	margin-top: 20px;
+}
+
+	.sub-task tbody
+	{
+		margin-top: 10px;
+	}
+
+ul.task-menu
+{
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+
+	ul.task-menu li
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+/* DISCOVERY */
+.discovery
+{
+	border: solid 1px #CACACA;
+	-moz-border-radius-bottomleft: 8px;
+	margin-top: 10px;
+	padding: 8px;
+}
+
+	.discovery .cod
+	{
+		float: left;
+		width: 24px;
+		height: 20px;
+		color: #333;
+		padding-top: 6px;
+		text-align: center;
+		background-color: #FFD;
+		border: dashed 1px #CACACA;
+	}
+
+	.discovery .basic-data
+	{
+		margin-left: 34px;
+		color: #555;
+		margin-bottom: 5px; 
+	}
+
+	.discovery h5
+	{
+		font-size: 16px;
+		margin: 10px 0 5px 10px;
+		color: #315C88;
+	}
+
+	.discovery h5 a
+	{
+		text-decoration: none;
+	}
+
+	.discovery p
+	{
+		margin: 0 0 10px 10px;
+	}
+
+.discovery:hover
+{
+	border: solid 1px #000;
+}
+
+.discovery:hover .basic-data
+{
+	color: #333;
+}
+
+.tickets,
+.tasks,
+.actions
+{
+	padding: 0;
+	margin-top: 10px;
+	border-top: dashed 1px #CACACA;
+}
+
+	.tickets h5,
+	.tasks h5,
+	.actions h5
+	{
+		color: #315C88;
+		font-size: 13px;
+		margin: 5px 0 0 0;
+	}
+
+.tools
+{
+	float: right;
+	text-align: right;
+}
+
+.not-approved
+{
+	background-color: #FFEFEF ! important;
+}
+
+/* TICKET */
+.closed
+{
+	background-color: #F3F6F9 ! important;
+}
+
+.files
+{
+	background-color: #FFF ! important;
+	padding: 0 ! important;
+}
+
+.all-read
+{
+	background-color: #FFD ! important;
+}
+
+.to-read
+{
+	background-color: #FFF ! important;
+}
+
+.ticket
+{
+	background-color: #FFD;
+	margin-top: 10px;
+	padding: 20px;
+	border: solid 1px #CACACA;
+	-moz-border-radius-bottomleft: 8px;
+}
+
+	.ticket table
+	{
+		width: 200px;
+	}
+ 	
+	.ticket h5,
+	.ticket h4
+	{
+		margin: 0;
+	}
+
+	.ticket table
+	{
+		float: right;
+		font-size: 10px;
+		margin: -10px -10px -10px 0;
+	}
+
+	.ticket table th,
+	.ticket table td
+	{
+		background-color: #FFFFF4;
+		border: solid 1px #E0E0D1;
+		padding: 2px;
+	}
+
+ 	.closed table td,
+ 	.closed table th
+ 	{
+		background-color: #FBFBFB ! important;
+ 	}
+
+
+	.text-message
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+.menu-title
+{
+	float: right;
+	padding-top: 10px;
+}
+
+.priority
+{
+}
+
+.high
+{
+	color: red ! important;
+	font-weight: bold;
+}
+
+.low
+{
+	color: blue ! important;
+}
+
+.thread
+{
+	margin: 0;
+	margin-top: 10px;
+	padding-top: 0;
+}
+
+    .thread .actual
+    {
+        background: #FFFFAA;
+    }
+
+/* REF */
+.ref {
+	border: solid 1px #CACACA;
+	-moz-border-radius-bottomleft: 8px;
+	padding: 10px;
+}
+
+/* TEXT-BLOCK */
+.text-block
+{
+	width: 500px;
+	border: solid 1px #CACACA;
+	background-color: #F8F8FF ! important;
+	padding: 3px;
+}
+
+/* INFORMS */
+.inform
+{
+	width: 100%;
+}
+
+	.inform th,
+	.inform .fix
+	{
+		width: 110px;
+	}
+
+.state-detail
+{
+	border-top: dashed 1px #CACACA;
+	padding-top: 5px;
+	font-size: 10px;
+	color: #888;
+	/*
+	background-image: url('images/icon_alert.png');
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	padding-left: 16px;
+	*/
+}
+
+/* PERCENTAGES */
+.percentage
+{
+	width: 100px;
+	text-align: center;
+	border: solid 1px #CACACA;
+	font-size: 10px;
+	background-color: #3DC040;
+	background-image: url('images/percentage_0.png');
+	background-repeat: no-repeat;
+}
+
+/* EXPIRED */
+.is-expired
+{
+	color: red;
+	font-weight: bold;
+}
+
+.days-expired
+{
+	color: #888;
+}

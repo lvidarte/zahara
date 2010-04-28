@@ -1,0 +1,27 @@
+<?xml version='1.0' standalone='yes'?>
+
+<!--
+@author      Leonardo Vidarte <lvidarte@gmail.com>
+@version     $Id: common.xml 1 2009-03-11 11:29:08Z xleo $
+@license     http://www.gnu.org/licenses/gpl.html GNU General Public License
+@package     languages
+@subpackage  es
+-->
+
+<language type="en">
+
+	<text name="_welcome">Welcome %s! Have a nice day...</text>
+	<text name="_formInputFile">File</text>
+	<text name="_formImageAlt">Alt</text>
+	<text name="_formFileDescription">Set the file description, please</text>
+
+	<list name="_monthNames">
+		<item>Junary</item>
+	</list>
+
+	<!-- LOGIN -->
+	<text name="_loginUser">User</text>
+	<text name="_loginPass">Password</text>
+	<text name="_loginLogin">Login</text>
+
+</language>
